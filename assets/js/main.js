@@ -9,9 +9,9 @@
 
   // owlCarousel
   $(".featur_slider").owlCarousel({
-    loop: true,
+    loop: false,
     margin:30,
-    stagePadding: 0,
+    // stagePadding: 0,
     items: 4,
     navText: [
       '<i class="fal fa-long-arrow-left"></i>',

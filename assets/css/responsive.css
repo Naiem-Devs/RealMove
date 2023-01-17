@@ -194,10 +194,14 @@
     .featur_slider.owl_arrow .owl-nav {
         right: auto;
         left: 50%;
-        bottom: 0;
+        bottom: -35px;
         top: auto;
         transform: translateX(-50%);
     }
+
+.owl_arrow .owl-nav {
+    max-width: 120px;
+}
     
     .buyRent_text {
         left: 30px;
@@ -348,6 +352,7 @@
 }
 .featur_area {
     padding-top: 50px;
+    padding-bottom: 70px;
 }
 
 .buyRent_area {
@@ -373,5 +378,9 @@
 /* Large Mobile screen :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .container {width:450px}
- 
+.footer_left {
+    max-width: 100%;
+}
+
+.footer_nav {margin: unset;}
 }
